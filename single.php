@@ -1,3 +1,6 @@
+<?php get_header(); ?>
+
+
 <div id="templatemo_content_wrapper">
 	<div id="templatemo_content">
     
@@ -14,7 +17,7 @@
         	    <div class="header_02"><?php the_title();?></div>
         	    <span><?php the_date(); ?></span>
         	    
-        	    <?php the_excerpt(); ?>
+        	    <?php the_content(); ?>
         	    
         	  <?php
         	  }
@@ -30,3 +33,5 @@
     	<div class="cleaner"></div>
     </div> <!-- end of content wrapper -->
 </div> <!-- end of content wrapper -->
+
+<?php get_footer(); ?>
